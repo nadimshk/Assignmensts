@@ -1,34 +1,36 @@
-// https://oj.masaischool.com/contest/5580/problem/301
-// https://oj.masaischool.com/contest/5580/
+/*https://oj.masaischool.com/contest/5580/problem/301
+https://oj.masaischool.com/contest/5580/
 
-// Planning for a party Ended
-// Description
+Planning for a party Ended
+Description
 
-// Jim and Pam are inviting friends for a party. But, they want to invite only those friends who have helped them in any way. So, they have made two arrays, indicating the number of people they have taken help from. Each person, has been assigned a unique ID, in the form of a number.
+Jim and Pam are inviting friends for a party. But, they want to invite only those friends who have helped them in any way. So, they have made two arrays, indicating the number of people they have taken help from. Each person, has been assigned a unique ID, in the form of a number.
 
-// Both, Jim and Pam make their separate invite listAandBbased on the number of people, they have taken help from. Find out if the lists created by the two of them are same or not.
+Both, Jim and Pam make their separate invite listAandBbased on the number of people, they have taken help from. Find out if the lists created by the two of them are same or not.
 
-// Note: A person might have helped them multiple times, and obviously would be invited only once
-
-
-// Input
-// The first line of the input containsN, the number of people Pam has taken help from
-
-// Next line containsNspace separated integers, indicating the ID's of the people, Pam has taken help from
-
-// The next line containsM, the number of people Jim has taken help from
-
-// Next line containsMspace separated integers, indicating the ID's of the people, Jim has taken help from
-
-// Constraints
-
-// 1 <=N, M<= 10000
-
-// 1 <=A[i], B[i]<= 10000
+Note: A person might have helped them multiple times, and obviously would be invited only once
 
 
-// Output
-// For each test case, printYes, if the lists created by Jim and Pam are same, else printNo
+Input
+The first line of the input containsN, the number of people Pam has taken help from
+
+Next line containsNspace separated integers, indicating the ID's of the people, Pam has taken help from
+
+The next line containsM, the number of people Jim has taken help from
+
+Next line containsMspace separated integers, indicating the ID's of the people, Jim has taken help from
+
+Constraints
+
+1 <=N, M<= 10000
+
+1 <=A[i], B[i]<= 10000
+
+
+Output
+For each test case, print Yes, if the lists created by Jim and Pam are same, else print No */
+
+
 
 /*
  * Sample Input 1 
